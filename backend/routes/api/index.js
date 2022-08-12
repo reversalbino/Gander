@@ -12,7 +12,5 @@ router.post('/sum', function(req, res) {
 
     const answer = +valueOne + +valueTwo;
 
-    console.log(answer);
-
     return res.json({answer});
 });
