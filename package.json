@@ -10,6 +10,9 @@
     "dev:frontend": "npm install --prefix frontend start",
     "start": "npm start --prefix backend"
   },
+  "engines": {
+    "node": "16.16.0"
+  },
   "author": "",
   "license": "ISC"
 }
