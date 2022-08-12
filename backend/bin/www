@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+// backend/bin/www
+const { port } = require('../config');
+
+const app = require('../app');
+
+// Check the database connection before starting the app
+try {
+    app.listen(port, () => console.log(`Listening on port ${port}...`));
+} catch(err) {
+    console.log('Something went wrong.');
+    console.error(err);
+}
