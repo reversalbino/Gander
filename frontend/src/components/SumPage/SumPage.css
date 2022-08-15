@@ -1,0 +1,49 @@
+#sum-form {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+#sum-form input {
+    border: 1px solid;
+    height: 30px;
+    text-align: center;
+    /* margin: 10px; */
+    font-size: 16px;
+}
+
+#sum-form p {
+    font-size: 30px;
+    margin: auto;
+}
+
+#sum-form #submit-button {
+    margin-top: 10px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#sum-form #errors {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 18px;
+}
